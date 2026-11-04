@@ -15,7 +15,7 @@ catImg = pygame.image.load('cat.png')
 catx = 10
 caty = 10
 direction = 'right'
-catspeed = 1
+catspeed = 5
 
 # the main game loop
 while True:
@@ -46,3 +46,4 @@ while True:
 			sys.exit()
 
 	pygame.display.update()
+	fpsClock.tick(FPS)
